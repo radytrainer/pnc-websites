@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Battambang';
+    text-decoration: none;
+}
+.container {
+   width: 90%;
+   margin: auto;
+   display: flex;
+   /* flex-direction: column; */
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 5px;
+    border-top: 3px solid #11a7e3;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.description {
+    padding: 14px;
+}
+
+nav {
+    background: #11a7e3;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.footer a {
+    background: #11a7e3;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 40px 0 0 0;
+    /* border-left-color: orange;
+    border-left-width: 2px;
+    border-left-style: solid; */
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    background: #000;
+}
+h2 {
+    color:#11a7e3;
+}
